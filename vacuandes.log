@@ -1,0 +1,167 @@
+19:29:39,056 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:29:39,058 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+19:29:39,274 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:30:11,082 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 4 con vacuna3
+19:30:11,452 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.vacuandes.negocio.Vacuna" pero era imposible poner el valor al campo "SEGUNDADOSIS"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+19:30:11,472 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: -1
+19:34:54,820 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:34:54,821 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+19:34:54,865 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:35:19,470 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 4 con vacuna3
+19:35:19,699 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.vacuandes.negocio.Vacuna" pero era imposible poner el valor al campo "SEGUNDADOSIS"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+19:35:19,717 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: -1
+19:40:13,525 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:40:13,526 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+19:40:13,572 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:41:18,575 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 4 con vacuna3
+19:41:24,316 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.vacuandes.negocio.Vacuna" pero era imposible poner el valor al campo "SEGUNDADOSIS"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+19:41:24,361 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: -1
+19:46:28,159 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:46:28,160 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+19:46:28,209 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:47:12,151 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 4 con vacuna3
+19:47:18,179 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: 1
+19:48:10,196 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando lotes
+19:48:10,403 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando lotes: 1 lotes existentes
+19:48:22,298 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 8 con vacuna1
+19:48:22,352 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : La transacción no está activo. Tiene que poner este en una transacción o usar su PersistenceManagerFactory con NontransactionalRead y NontransactionalWrite como true
+
+19:48:22,352 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: -1
+19:48:53,796 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis 2 con vacuna1
+19:48:53,893 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando segunda dosis: 1
+07:41:01,920 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+07:41:01,920 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+07:41:01,932 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+07:51:50,600 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+07:51:50,601 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+07:51:50,617 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+07:53:01,745 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Estados
+08:03:36,837 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:03:36,838 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:03:36,850 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:04:04,647 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Estados
+08:04:04,696 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Bebidas: 0 estados existentes
+08:04:07,933 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando condiciones
+08:04:07,945 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Bebidas: 0 oficinas existentes
+08:04:10,311 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Oficinas
+08:04:10,322 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando Bebidas: 0 oficinas existentes
+08:09:22,074 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:09:22,075 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:09:22,087 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:11:11,670 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:11:11,670 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:11:11,683 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:11:41,787 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando PuntosVacunacionEfectivos
+08:11:41,984 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando PuntosVacunacionEfectivos: 0 puntos existentes
+08:14:36,959 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:14:36,959 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:14:36,971 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:14:51,011 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando PuntosVacunacionEfectivos
+08:14:51,129 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Consultando PuntosVacunacionEfectivos: 0 puntos existentes
+08:18:48,367 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:18:48,367 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:18:48,380 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:20:38,580 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado asfdsa
+08:20:38,698 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:1)
+
+08:20:38,699 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:21:56,843 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:21:56,843 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:21:56,855 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:22:01,551 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:22:01,551 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:22:01,563 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:22:14,476 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado dscsd
+08:22:14,596 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:2)
+
+08:22:14,597 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:22:49,343 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado a
+08:22:49,358 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:3)
+
+08:22:49,367 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:22:56,682 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado a
+08:22:56,695 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:4)
+
+08:22:56,698 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:22:59,511 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado a
+08:22:59,518 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:5)
+
+08:22:59,524 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:23:21,329 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado qads
+08:23:21,343 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:6)
+
+08:23:21,354 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:23:27,343 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado fsfsd
+08:23:27,349 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:7)
+
+08:23:27,351 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:23:30,419 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado dasdas
+08:23:30,429 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:8)
+
+08:23:30,432 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:23:51,373 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado dasdas
+08:23:51,404 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: EstadoVacunacion [id=9, descripcion=dasdas]
+08:23:56,022 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado sdadas
+08:23:56,041 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: EstadoVacunacion [id=10, descripcion=sdadas]
+08:24:42,679 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:24:42,679 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:24:42,697 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:25:00,314 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado Vacunado
+08:25:00,361 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "SELECT VACUANDES_SEQUENCE.nextval FROM DUAL".
+ORA-02289: no existe la secuencia
+
+08:25:00,362 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:29:07,020 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado hoola
+08:29:07,107 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ESTADOVACUNACION(IdentificadorEstado, DescripcionEstado) values (?, ?)".
+ORA-00001: Se ha violado la restricción única (ISIS2304B05202110.ESTADO_PK) para la tabla ISIS2304B05202110.ESTADOVACUNACION en las columnas (IDENTIFICADORESTADO)
+ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna (IDENTIFICADORESTADO:1)
+
+08:29:07,108 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: null
+08:32:19,873 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado s
+08:32:19,916 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: EstadoVacunacion [id=21, descripcion=s]
+08:43:06,076 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:43:06,076 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:43:06,097 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:43:14,351 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado aaa
+08:43:14,439 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando estado: EstadoVacunacion [id=100, descripcion=aaa]
+08:43:57,917 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:43:57,917 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:43:57,930 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:44:18,584 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion a
+08:44:18,685 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: Condicion [id=1, descripcion=a]
+08:45:59,600 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion asdas
+08:45:59,623 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO CONDICION(IdentificadorCondicion, DescripcionCondicion) values (?, ?)".
+ORA-02290: restricción de control (ISIS2304B05202110.CK_CONDICION) violada
+
+08:45:59,624 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: null
+08:46:15,816 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion aaa
+08:46:15,829 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: Condicion [id=4, descripcion=aaa]
+08:46:27,289 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion 213143
+08:46:27,300 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO CONDICION(IdentificadorCondicion, DescripcionCondicion) values (?, ?)".
+ORA-01438: el valor 30 es mayor que la precisión especificada (1, 0) para la columna 
+
+08:46:27,301 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: null
+08:46:52,056 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion fewa
+08:46:52,061 (AWT-EventQueue-0) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO CONDICION(IdentificadorCondicion, DescripcionCondicion) values (?, ?)".
+ORA-01438: el valor 122 es mayor que la precisión especificada (1, 0) para la columna 
+
+08:46:52,063 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: null

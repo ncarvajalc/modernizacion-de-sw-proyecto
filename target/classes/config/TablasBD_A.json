@@ -1,0 +1,25 @@
+{
+	"title": "Nombres de las tablas de Vacuandes para la aplicación A",
+	"unidadPersistencia": "Vacuandes",
+	"tablas":
+	[
+		"VACUANDES_SEQUENCE",
+		"OFICINAREGIONALEPS",
+		"PUNTOVACUNACIONVIRTUAL",
+		"LOTEVACUNA",
+		"INFRAESTRUCTURA",
+		"CONDICIONPRESERVACION",
+		"VACUNA",
+		"TIENECONDICIONPRESERVACION",
+		"PUNTOVACUNACION",
+		"TRABAJAEN",
+		"CIUDADANO",
+		"ESTADOVACUNACION",
+		"TALENTOHUMANO",
+		"CITA",
+		"ETAPA",
+		"CONDICION",
+		"TIENEINFRAESTRUCTURA",
+		"PERTENECEA"
+	]
+}

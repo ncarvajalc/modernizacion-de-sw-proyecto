@@ -1,0 +1,230 @@
+{
+	"title": "Aplicación transaccional de Parranderos Uniandes",
+	"frameH": 600,
+	"frameW": 1200,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "OficinaRegionalEPS",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarOficinaRegionalEPS"
+				}
+			]
+		},
+		{ "menuTitle": "Condicion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCondicion"
+				}
+			]
+		},
+		{ "menuTitle": "EstadoVacunacion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarEstadoVacunacion"
+				}
+				
+			]
+		},
+		{ "menuTitle": "PuntoVacunacion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarPuntoVacunacion"
+				},
+				{
+					"label": "Asignar infraestructura",
+					"event": "asignarTieneInfraestructura"
+				}
+			]
+		},
+		{ "menuTitle": "Cita",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCita"
+				}
+			]
+		},
+		{ "menuTitle": "Etapa",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarEtapa"
+				}
+			]
+		},
+		{ "menuTitle": "Ciudadano",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCiudadano"
+				},
+				{
+					"label": "Asignar punto de vacunación",
+					"event": "asignarPuntoVacunacion"
+				},
+				{
+					"label": "Agregar condicion",
+					"event": "adicionarCondicionCiudadano"
+				},
+				{
+					"label": "Actualizar EstadoVacunacion",
+					"event": "actualizarEstadoVacunacion"
+				}
+			]
+		},
+		{ "menuTitle": "TalentoHumano",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarTalentoHumano"
+				},
+				{
+					"label": "Asignar PuntoVacunacion",
+					"event": "asignarTalentoHumanoAPunto"
+				}
+			]
+		},
+		{ "menuTitle": "Vacuna",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarVacuna"
+				},
+				{
+					"label": "Asignar CondicionPreservacion",
+					"event": "asignarCondicionPreservacion"
+				}
+			]
+		},
+		{ "menuTitle": "Lote Vacuna",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarLoteVacuna"
+				}
+			]
+		},
+		{ "menuTitle": "Infraestructura",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarInfraestructura"
+				}
+			]
+		},
+		{ "menuTitle": "CondicionPreservacion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCondicionPreservacion"
+				}
+			]
+		},
+		{ "menuTitle": "PuntoVacunacionVirtual",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarPuntoVacunacionVirtual"
+				}
+			]
+		},
+		{ "menuTitle": "Consultas",
+		  "options":
+			[
+				{
+					"label": "Mostrar indice vacunación",
+					"event": "mostrarIndiceVacunacion"
+				},
+				{
+					"label": "Mostrar ciudadanos atentidos en un PuntoVacunacion",
+					"event": "mostrarCiudadanosAtendidosFecha"
+				},
+				{
+					"label": "Mostrar 20 PuntoVacunacion mas efectivos",
+					"event": "mostrarPuntosVacunacionEfectivos"
+				}
+
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Cambiar de usuario",
+					"event": "seleccionarUsuario"
+				},
+				{
+					"label": "Mostrar log Vacuandes",
+					"event": "mostrarLogVacuandes"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de vacuandes",
+					"event": "limpiarLogVacuandes"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Documento de reporte",
+					"event": "mostrarDocumentoReporte"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	

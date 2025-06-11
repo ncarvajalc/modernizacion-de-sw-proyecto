@@ -1,0 +1,11 @@
+--Sentencias usadas en la clase OficinaRegionalEPS
+INSERT INTO OFICINAREGIONALEPS (NombreEPS, RegionEPS)
+VALUES (?, ?);
+
+SELECT *
+FROM OFICINAREGIONALEPS
+WHERE NombreEPS = ? AND
+      RegionEPS = ?;
+
+SELECT *
+FROM OFICINAREGIONALEPS;

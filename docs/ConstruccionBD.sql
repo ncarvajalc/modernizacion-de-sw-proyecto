@@ -1,0 +1,527 @@
+--Creacion tablas
+
+-- Creación del secuenciador
+CREATE SEQUENCE VACUANDES_SEQUENCE START WITH 100;
+
+--Crea Oficina regional y define su PK
+CREATE TABLE OficinaRegionalEPS
+(
+  NombreEPS VARCHAR2(255) NOT NULL,
+  RegionEPS NUMBER(2),
+  CONSTRAINT OficinaRegionalEPS_PK PRIMARY KEY (NombreEPS,RegionEPS)
+);
+
+--Crea PuntoVacunacionVirtual y define su PK
+CREATE TABLE PuntoVacunacionVirtual
+(
+  DirPuntoVacunacionVirtual VARCHAR2(255) NOT NULL,
+  NombreOficina VARCHAR2(255) NOT NULL,
+  RegionOficina NUMBER(2) NOT NULL,
+  VacunaAsignada NUMBER NOT NULL,
+  CONSTRAINT PuntoVacunacionVirtual_PK PRIMARY KEY (DirPuntoVacunacionVirtual)
+);
+
+--Crea LoteVacuna y define su PK
+CREATE TABLE LoteVacuna
+(
+  IdentificadorLote NUMBER NOT NULL,
+  NombreOficina VARCHAR2(255) NOT NULL,
+  RegionOficina NUMBER(2) NOT NULL,
+  CONSTRAINT LoteVacuna_PK PRIMARY KEY (IdentificadorLote)
+);
+
+--Crea Infraestructura y define su PK
+CREATE TABLE Infraestructura
+(
+  IdentificadorInfraestructura NUMBER NOT NULL,
+  DescripcionInfraestructura VARCHAR2(255) NOT NULL,
+  CONSTRAINT Infraestructura_PK PRIMARY KEY (IdentificadorInfraestructura)
+);
+
+--Crea CondicionPreservacion y define su PK
+CREATE TABLE CondicionPreservacion
+(
+  IdentificadorCondPreservacion NUMBER NOT NULL,
+  DescripcionPreservacion VARCHAR2(255) NOT NULL,
+  CONSTRAINT CondicionPreservacion_PK PRIMARY KEY (IdentificadorCondPreservacion)
+);
+
+--Crea Vacuna y define su PK y CHECK para el booleano
+CREATE TABLE Vacuna
+(
+  IdentificadorVacuna NUMBER NOT NULL,
+  HaSidoAplicado CHAR(1) NOT NULL,
+  LoteVacuna NUMBER NOT NULL,
+  SegundaDosis NUMBER,
+  PuntoVacunacion VARCHAR2(255) NOT NULL,
+  TipoIdCiudadano VARCHAR2(15),
+  IdCiudadano VARCHAR2(127),
+  Tecnologia VARCHAR2(255) NOT NULL,
+  CONSTRAINT Vacuna_PK PRIMARY KEY (IdentificadorVacuna),
+  CONSTRAINT CK_Bool CHECK (HaSidoAplicado IN ('0', '1'))
+);
+
+--Crea TieneCondicionPreservacion
+CREATE TABLE TieneCondicionPreservacion
+(
+  IdentificadorCondicion NUMBER NOT NULL,
+  IdentificadorVacuna NUMBER NOT NULL
+);
+
+--Crea PuntoVacunacion y su PK
+CREATE TABLE PuntoVacunacion
+(
+  DireccionPuntoVacunacion VARCHAR2(255) NOT NULL,
+  NombrePuntoVacunacion VARCHAR2(255) NOT NULL,
+  CapacidadSimultanea NUMBER NOT NULL,
+  CapacidadDiaria NUMBER NOT NULL,
+  DisponibilidadDeDosis NUMBER NOT NULL,
+  NombreOficina VARCHAR2(255) NOT NULL,
+  RegionOficina NUMBER(2) NOT NULL,
+  SoloMayores CHAR(1) NOT NULL,
+  SoloSalud CHAR(1) NOT NULL,
+  EstaHabilitado CHAR(1) NOT NULL,
+  CONSTRAINT PuntoVacunacion_PK PRIMARY KEY (DireccionPuntoVacunacion),
+  CONSTRAINT CK_Cap1_Positiva CHECK (CapacidadSimultanea >= 0),
+  CONSTRAINT CK_Cap2_Positiva CHECK (CapacidadDiaria > 0),
+  CONSTRAINT CK_Cap3_Positiva CHECK (DisponibilidadDeDosis >= 0),
+  CONSTRAINT CK_Bool5 CHECK (SoloMayores IN ('0', '1')),
+  CONSTRAINT CK_Bool6 CHECK (SoloSalud IN ('0', '1')),
+  CONSTRAINT CK_Bool7 CHECK (EstaHabilitado IN ('0', '1'))
+);
+
+--Crea TrabajaEn
+CREATE TABLE TrabajaEn
+(
+  TipoIdTalentoHumano VARCHAR2(15),
+  IdTalentoHumano VARCHAR2(127),
+  DireccionPuntoVacunacion VARCHAR2(255)
+);
+
+--Crea Ciudadano y define PK
+CREATE TABLE Ciudadano
+(
+  TipoDeIdentificacion VARCHAR2(15) NOT NULL,
+  IdentificacionCiudadano VARCHAR2(127) NOT NULL,
+  NombreCiudadano VARCHAR2(255) NOT NULL,
+  ApellidoCiudadano VARCHAR2(255) NOT NULL,
+  EsVacunable Char(1) NOT NULL,
+  FechaDeNacimiento DATE NOT NULL,
+  TelefonoDeContacto NUMBER NOT NULL,
+  EstadoVacunacion NUMBER NOT NULL,
+  Etapa NUMBER NOT NULL,
+  PuntoVacunacion VARCHAR2(255),
+  NombreOficina VARCHAR2(255) NOT NULL,
+  RegionOficina NUMBER(2) NOT NULL,
+  Genero VARCHAR2(10) NOT NULL,
+  Rol VARCHAR2(255) NOT NULL,
+  Ciudad VARCHAR2(255) NOT NULL,
+  Localidad VARCHAR(255) NOT NULL,
+  CONSTRAINT Ciudadano_PK PRIMARY KEY (TipoDeIdentificacion, IdentificacionCiudadano),
+  CONSTRAINT CK_TiposID CHECK (TipoDeIdentificacion IN ('TI', 'CC', 'PermisoEspecial')),
+  CONSTRAINT CK_Bool2 CHECK (EsVacunable IN ('0', '1')),
+  CONSTRAINT CK_Genero CHECK (Genero IN ('Masculino', 'Femenino', 'Otro'))
+);
+
+--Crea Ciudadano y define PK
+CREATE TABLE EstadoVacunacion
+(
+  IdentificadorEstado NUMBER NOT NULL,
+  DescripcionEstado VARCHAR2(255) NOT NULL,
+  CONSTRAINT Estado_PK PRIMARY KEY (IdentificadorEstado)
+);
+
+--Crea TalentoHumano y el CK
+CREATE TABLE TalentoHumano
+(
+  TipoDeIdentificacion VARCHAR2(15) NOT NULL,
+  IdentificacionCiudadano VARCHAR2(127) NOT NULL,
+  FuncionTalentoHumano VARCHAR2(15) NOT NULL,
+  CONSTRAINT CK_RolesTalento CHECK (FuncionTalentoHumano IN ('Doctor', 'Enfermero'))
+);
+
+--Crea Cita y su PK
+CREATE TABLE Cita
+(
+  IdentificadorCita NUMBER NOT NULL,
+  FechaCita TIMESTAMP NOT NULL,
+  TipoIdCiudadano VARCHAR2(15) NOT NULL,
+  IdCiudadano VARCHAR2(127) NOT NULL,
+  CONSTRAINT Cita_PK PRIMARY KEY (IdentificadorCita)
+);
+
+--Crea Etapa y su PK y CK
+CREATE TABLE Etapa
+(
+  NumeroDeEtapa NUMBER(1) NOT NULL,
+  DescripcionEtapa VARCHAR2(255) NOT NULL,
+  CONSTRAINT Etapa_PK PRIMARY KEY (NumeroDeEtapa),
+  CONSTRAINT CK_Etapa CHECK (NumeroDeEtapa >= 0 AND NumeroDeEtapa <= 5)
+);
+
+--Crea Condicion y define PK
+CREATE TABLE Condicion
+(
+  IdentificadorCondicion NUMBER(1) NOT NULL,
+  DescripcionCondicion VARCHAR2(255) NOT NULL,
+  CONSTRAINT Condicion_PK PRIMARY KEY (IdentificadorCondicion,DescripcionCondicion),
+  CONSTRAINT CK_Condicion CHECK (IdentificadorCondicion >= 0 AND IdentificadorCondicion <= 5)
+);
+
+--Crea TieneInfraestrucutra
+CREATE TABLE TieneInfraestructura
+(
+  IdentificadorInfraestructura NUMBER NOT NULL,
+  DireccionPuntoVacunacion VARCHAR2(255) NOT NULL
+);
+
+--Crea TieneInfraestrucutra
+CREATE TABLE PerteneceA
+(
+  TipoIdCiudadano VARCHAR2(15),
+  IdCiudadano VARCHAR2(127),
+  IdentificadorCondicion NUMBER NOT NULL,
+  DescripcionCondicion VARCHAR2(255) NOT NULL
+);
+
+--Definición restricciones
+--FKs PuntoVacunacionVirtual
+ALTER TABLE PuntoVacunacionVirtual
+ADD CONSTRAINT OfEPS_FK_PVVirtual
+FOREIGN KEY (NombreOficina,RegionOficina)
+REFERENCES OficinaRegionalEPS(NombreEPS,RegionEPS)
+ENABLE;
+
+ALTER TABLE PuntoVacunacionVirtual
+ADD CONSTRAINT VacunaAsignada_FK
+FOREIGN KEY (VacunaAsignada)
+REFERENCES Vacuna(IdentificadorVacuna)
+ENABLE;
+
+--FKs LoteVacuna
+ALTER TABLE LoteVacuna
+ADD CONSTRAINT OfEPS_FK_LoteVacuna
+FOREIGN KEY (NombreOficina,RegionOficina)
+REFERENCES OficinaRegionalEPS(NombreEPS,RegionEPS)
+ENABLE;
+
+--FKs TieneCondicionPreservacion y PKs
+ALTER TABLE TieneCondicionPreservacion
+ADD CONSTRAINT FK_CondPreservacion
+FOREIGN KEY (IdentificadorCondicion)
+REFERENCES CondicionPreservacion(IdentificadorCondPreservacion)
+ENABLE;
+
+ALTER TABLE TieneCondicionPreservacion
+ADD CONSTRAINT FK_IdVacunaCP
+FOREIGN KEY (IdentificadorVacuna)
+REFERENCES Vacuna(IdentificadorVacuna)
+ENABLE;
+
+ALTER TABLE TieneCondicionPreservacion
+ADD CONSTRAINT PK_TieneCondPreservacion
+PRIMARY KEY (IdentificadorCondicion,IdentificadorVacuna)
+ENABLE;
+
+--FKs Vacuna
+ALTER TABLE Vacuna
+ADD CONSTRAINT FK_LoteVacuna
+FOREIGN KEY (LoteVacuna)
+REFERENCES LoteVacuna(IdentificadorLote)
+ENABLE;
+
+ALTER TABLE Vacuna
+ADD CONSTRAINT FK_SegundaDosis
+FOREIGN KEY (SegundaDosis)
+REFERENCES Vacuna(IdentificadorVacuna)
+ENABLE;
+
+ALTER TABLE Vacuna
+ADD CONSTRAINT FK_PuntoVacunacion
+FOREIGN KEY (PuntoVacunacion)
+REFERENCES PuntoVacunacion(DireccionPuntoVacunacion)
+ENABLE;
+
+ALTER TABLE Vacuna
+ADD CONSTRAINT FK_Ciudadano
+FOREIGN KEY (TipoIdCiudadano,IdCiudadano)
+REFERENCES Ciudadano(TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+--FKs PuntoVacunacion
+ALTER TABLE PuntoVacunacion
+ADD CONSTRAINT OfEPS_FK_PuntoVac
+FOREIGN KEY (NombreOficina,RegionOficina)
+REFERENCES OficinaRegionalEPS(NombreEPS,RegionEPS)
+ENABLE;
+
+--FKs y PKs TrabajaEn
+ALTER TABLE TrabajaEn
+ADD CONSTRAINT FK_TalentoHumano
+FOREIGN KEY (TipoIdTalentoHumano,IdTalentoHumano)
+REFERENCES Ciudadano(TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+ALTER TABLE TrabajaEn
+ADD CONSTRAINT FK_PuntoVac_TE
+FOREIGN KEY (DireccionPuntoVacunacion)
+REFERENCES PuntoVacunacion(DireccionPuntoVacunacion)
+ENABLE;
+
+ALTER TABLE TrabajaEn
+ADD CONSTRAINT PK_TrabajaEn
+PRIMARY KEY (TipoIdTalentoHumano,IdTalentoHumano,DireccionPuntoVacunacion)
+ENABLE;
+
+--FKs Ciudadano
+ALTER TABLE Ciudadano
+ADD CONSTRAINT FK_EstadoVacunacion
+FOREIGN KEY (EstadoVacunacion)
+REFERENCES EstadoVacunacion(IdentificadorEstado)
+ENABLE;
+
+ALTER TABLE Ciudadano
+ADD CONSTRAINT FK_Etapa
+FOREIGN KEY (Etapa)
+REFERENCES Etapa(NumeroDeEtapa)
+ENABLE;
+
+ALTER TABLE Ciudadano
+ADD CONSTRAINT FK_PuntoVac_Ciudadano
+FOREIGN KEY (PuntoVacunacion)
+REFERENCES PuntoVacunacion(DireccionPuntoVacunacion)
+ENABLE;
+
+ALTER TABLE Ciudadano
+ADD CONSTRAINT OfEPS_FK_Ciudadano
+FOREIGN KEY (NombreOficina,RegionOficina)
+REFERENCES OficinaRegionalEPS(NombreEPS,RegionEPS)
+ENABLE;
+
+--FKs y PK TalentoHumano
+ALTER TABLE TalentoHumano
+ADD CONSTRAINT FK_TalentoHumano2
+FOREIGN KEY (TipoDeIdentificacion, IdentificacionCiudadano)
+REFERENCES Ciudadano(TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+ALTER TABLE TalentoHumano
+ADD CONSTRAINT PK_TalentoHumano
+PRIMARY KEY (TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+--FKs Cita
+ALTER TABLE Cita
+ADD CONSTRAINT FK_CiudadanoCitado
+FOREIGN KEY (TipoIdCiudadano, IdCiudadano)
+REFERENCES Ciudadano(TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+--FKs y PKs TieneInfraestructura
+ALTER TABLE TieneInfraestructura
+ADD CONSTRAINT FK_IdInfraestructura
+FOREIGN KEY (IdentificadorInfraestructura)
+REFERENCES Infraestructura(IdentificadorInfraestructura)
+ENABLE;
+
+ALTER TABLE TieneInfraestructura
+ADD CONSTRAINT FK_PuntoVac_TI
+FOREIGN KEY (DireccionPuntoVacunacion)
+REFERENCES PuntoVacunacion(DireccionPuntoVacunacion)
+ENABLE;
+
+ALTER TABLE TieneInfraestructura
+ADD CONSTRAINT PK_TieneInfraestructura
+PRIMARY KEY (IdentificadorInfraestructura,DireccionPuntoVacunacion)
+ENABLE;
+
+--FKs y PKs PerteneceA
+ALTER TABLE PerteneceA
+ADD CONSTRAINT FK_CondicionCiudadano
+FOREIGN KEY (TipoIdCiudadano,IdCiudadano)
+REFERENCES Ciudadano(TipoDeIdentificacion, IdentificacionCiudadano)
+ENABLE;
+
+ALTER TABLE PerteneceA
+ADD CONSTRAINT FK_IdCondicion
+FOREIGN KEY (IdentificadorCondicion, DescripcionCondicion)
+REFERENCES Condicion(IdentificadorCondicion, DescripcionCondicion)
+ENABLE;
+
+ALTER TABLE PerteneceA
+ADD CONSTRAINT PK_PerteneceA
+PRIMARY KEY (TipoIdCiudadano,IdCiudadano,IdentificadorCondicion, DescripcionCondicion)
+ENABLE;
+
+--Datos oficinaRegional
+INSERT INTO "OFICINAREGIONALEPS" (NOMBREEPS, REGIONEPS)
+VALUES ('Compensar', 12);
+
+INSERT INTO "OFICINAREGIONALEPS" (NOMBREEPS, REGIONEPS)
+VALUES ('Sanitas', 10);
+--Datos Punto vacunacion
+INSERT INTO "PUNTOVACUNACION" (DIRECCIONPUNTOVACUNACION, NOMBREPUNTOVACUNACION,CAPACIDADSIMULTANEA,CAPACIDADDIARIA,DISPONIBILIDADDEDOSIS, NOMBREOFICINA,REGIONOFICINA)
+VALUES ('CR 7A #122-09','Centro atención Compensar',200,100,10000,'Compensar', 12);
+
+INSERT INTO "PUNTOVACUNACION" (DIRECCIONPUNTOVACUNACION, NOMBREPUNTOVACUNACION,CAPACIDADSIMULTANEA,CAPACIDADDIARIA,DISPONIBILIDADDEDOSIS, NOMBREOFICINA,REGIONOFICINA)
+VALUES ('CR 8H #123-02','Centro vacunación Sanitas',300,200,10000,'Sanitas', 10);
+--Datos Lote Vacunas
+INSERT INTO "LOTEVACUNA" (IDENTIFICADORLOTE, NOMBREOFICINA,REGIONOFICINA)
+VALUES (1,'Compensar', 12);
+
+INSERT INTO "LOTEVACUNA" (IDENTIFICADORLOTE, NOMBREOFICINA,REGIONOFICINA)
+VALUES (2,'Sanitas', 10);
+--Datos infraestructura
+INSERT INTO "INFRAESTRUCTURA" (IDENTIFICADORINFRAESTRUCTURA, DESCRIPCIONINFRAESTRUCTURA)
+VALUES (3,'Refrigeración');
+
+INSERT INTO "INFRAESTRUCTURA" (IDENTIFICADORINFRAESTRUCTURA, DESCRIPCIONINFRAESTRUCTURA)
+VALUES (4,'Almacenamiento al clima');
+--Datos condicion
+INSERT INTO "CONDICIONPRESERVACION" (IDENTIFICADORCONDPRESERVACION, DESCRIPCIONPRESERVACION)
+VALUES (5,'Refrigeración mínimo 10 dias');
+
+INSERT INTO "CONDICIONPRESERVACION" (IDENTIFICADORCONDPRESERVACION, DESCRIPCIONPRESERVACION)
+VALUES (6,'Refrigeración a -70C');
+--Datos estado vacunacion
+
+INSERT INTO "ESTADOVACUNACION" (IDENTIFICADORESTADO, DESCRIPCIONESTADO )
+VALUES (1,'No vacunado');
+
+INSERT INTO "ESTADOVACUNACION" (IDENTIFICADORESTADO, DESCRIPCIONESTADO )
+VALUES (2,'Primera dosis aplicada');
+
+INSERT INTO "ESTADOVACUNACION" (IDENTIFICADORESTADO, DESCRIPCIONESTADO )
+VALUES (3,'Segunda dosis aplicada');
+
+--Datos etapas
+INSERT INTO "ETAPA" (NUMERODEETAPA, DESCRIPCIONETAPA )
+VALUES (1,'Fase 1- Etapa 1');
+
+INSERT INTO "ETAPA" (NUMERODEETAPA, DESCRIPCIONETAPA )
+VALUES (2,'Fase 1- Etapa 2');
+
+
+INSERT INTO "ETAPA" (NUMERODEETAPA, DESCRIPCIONETAPA )
+VALUES (3,'Fase 1- Etapa 3');
+
+
+INSERT INTO "ETAPA" (NUMERODEETAPA, DESCRIPCIONETAPA )
+VALUES (4,'Fase 2- Etapa 4');
+
+INSERT INTO "ETAPA" (NUMERODEETAPA, DESCRIPCIONETAPA )
+VALUES (5,'Fase 2- Etapa 5');
+
+
+--Datos Ciudadano
+INSERT INTO "CIUDADANO" (TIPODEIDENTIFICACION, IDENTIFICACIONCIUDADANO, NOMBRECIUDADANO, APELLIDOCIUDADANO, ESVACUNABLE, FECHADENACIMIENTO, TELEFONODECONTACTO, ESTADOVACUNACION, ETAPA, PUNTOVACUNACION, NOMBREOFICINA, REGIONOFICINA )
+VALUES ('CC','986294', 'Robert','Yang', '1' , TO_DATE('1998/11/1', 'YY/MM/DD'), 23875496 , 1, 4,'CR 7A #122-09', 'Compensar', 12 );
+
+INSERT INTO "CIUDADANO" (TIPODEIDENTIFICACION, IDENTIFICACIONCIUDADANO, NOMBRECIUDADANO, APELLIDOCIUDADANO, ESVACUNABLE, FECHADENACIMIENTO, TELEFONODECONTACTO, ESTADOVACUNACION, ETAPA, PUNTOVACUNACION, NOMBREOFICINA, REGIONOFICINA )
+VALUES ('TI','1000471065', 'Juan','Jimenez', '1' , TO_DATE('2000/12/1', 'YY/MM/DD'), 324789 , 1, 4,'CR 8H #123-02', 'Sanitas', 10 );
+
+INSERT INTO "CIUDADANO" (TIPODEIDENTIFICACION, IDENTIFICACIONCIUDADANO, NOMBRECIUDADANO, APELLIDOCIUDADANO, ESVACUNABLE, FECHADENACIMIENTO, TELEFONODECONTACTO, ESTADOVACUNACION, ETAPA, PUNTOVACUNACION, NOMBREOFICINA, REGIONOFICINA )
+VALUES ('CC','7490543', 'Manuel','Sarmiento', '1' , TO_DATE('1956/12/1', 'YY/MM/DD'), 3526897 , 3, 2,'CR 8H #123-02', 'Sanitas', 10 );
+--Datos vacunas
+INSERT INTO "VACUNA" (IDENTIFICADORVACUNA, HASIDOAPLICADO, LOTEVACUNA, PUNTOVACUNACION, TIPOIDCIUDADANO, IDCIUDADANO )
+VALUES (7,'0',1,'CR 7A #122-09','CC','986294');
+
+INSERT INTO "VACUNA" (IDENTIFICADORVACUNA, HASIDOAPLICADO, LOTEVACUNA, PUNTOVACUNACION, TIPOIDCIUDADANO, IDCIUDADANO )
+VALUES (8,'0',2,'CR 8H #123-02','TI','1000471065');
+
+INSERT INTO "VACUNA" (IDENTIFICADORVACUNA, HASIDOAPLICADO, LOTEVACUNA, PUNTOVACUNACION, TIPOIDCIUDADANO, IDCIUDADANO )
+VALUES (9,'1',2,'CR 8H #123-02','CC','7490543');
+
+--Datos tieneCondicionPreservacion
+INSERT INTO "TIENECONDICIONPRESERVACION" (IDENTIFICADORCONDICION, IDENTIFICADORVACUNA)
+VALUES(5, 8);
+
+INSERT INTO "TIENECONDICIONPRESERVACION" (IDENTIFICADORCONDICION, IDENTIFICADORVACUNA)
+VALUES(6, 7);
+
+--datos PuntoVacunacionVirtual
+INSERT INTO "PUNTOVACUNACIONVIRTUAL" (DIRPUNTOVACUNACIONVIRTUAL, NOMBREOFICINA, REGIONOFICINA, VACUNAASIGNADA)
+VALUES('CR 9 #155-09', 'Sanitas', 10, 7);
+
+INSERT INTO "PUNTOVACUNACIONVIRTUAL" (DIRPUNTOVACUNACIONVIRTUAL, NOMBREOFICINA, REGIONOFICINA, VACUNAASIGNADA)
+VALUES('CR 19B #35-09', 'Sanitas', 10, 8);
+
+--Datos talento humano
+INSERT INTO "TALENTOHUMANO" (TIPODEIDENTIFICACION, IDENTIFICACIONCIUDADANO, FUNCIONTALENTOHUMANO)
+VALUES('CC','7490543', 'Doctor');
+
+--Datos citas
+INSERT INTO "CITA" (IDENTIFICADORCITA, FECHACITA, TIPOIDCIUDADANO,IDCIUDADANO)
+VALUES(23, TO_TIMESTAMP('10-SEP-2114:10:10','DD-MON-RRHH24:MI:SS'),'CC','986294');
+
+INSERT INTO "CITA" (IDENTIFICADORCITA, FECHACITA, TIPOIDCIUDADANO,IDCIUDADANO)
+VALUES(24, TO_TIMESTAMP('1-JUN-2116:10:10','DD-MON-RRHH24:MI:SS'),'TI','1000471065');
+
+INSERT INTO "CITA" (IDENTIFICADORCITA, FECHACITA, TIPOIDCIUDADANO,IDCIUDADANO)
+VALUES(25, TO_TIMESTAMP('8-MAY-2108:30:00','DD-MON-RRHH24:MI:SS'),'CC','7490543');
+
+--Datos TrabajaEn
+INSERT INTO "TRABAJAEN" (TIPOIDTALENTOHUMANO, IDTALENTOHUMANO,DIRECCIONPUNTOVACUNACION)
+VALUES('CC','7490543', 'CR 8H #123-02');
+
+--Datos condicion
+INSERT INTO "CONDICION" (IDENTIFICADORCONDICION, DESCRIPCIONCONDICION)
+VALUES(3, 'Paciente con cancer de hígado');
+
+
+INSERT INTO "CONDICION" (IDENTIFICADORCONDICION, DESCRIPCIONCONDICION)
+VALUES(2, 'Practicante de medicina');
+
+--Datos tieneInfraestructura
+
+INSERT INTO "TIENEINFRAESTRUCTURA" (IDENTIFICADORINFRAESTRUCTURA, DIRECCIONPUNTOVACUNACION)
+VALUES(3, 'CR 7A #122-09');
+
+INSERT INTO "TIENEINFRAESTRUCTURA" (IDENTIFICADORINFRAESTRUCTURA, DIRECCIONPUNTOVACUNACION)
+VALUES(4, 'CR 8H #123-02');
+
+--Datos PerteneceA
+
+INSERT INTO "PERTENECEA" (TIPOIDCIUDADANO, IDCIUDADANO, IDENTIFICADORCONDICION, DESCRIPCIONCONDICION)
+VALUES('CC','7490543', 2, 'Practicante de medicina');
+
+
+COMMIT;
+
+-- --En caso de querer limpiar tablas
+-- DELETE FROM cita;
+-- DELETE FROM talentohumano;
+-- DELETE FROM pertenecea;
+-- DELETE FROM condicion;
+-- DELETE FROM trabajaen;
+-- DELETE FROM tienecondicionpreservacion;
+-- DELETE FROM condicionpreservacion;
+-- DELETE FROM tieneinfraestructura;
+-- DELETE FROM infraestructura;
+-- DELETE FROM puntovacunacionvirtual;
+-- DELETE FROM vacuna;
+-- DELETE FROM ciudadano;
+-- DELETE FROM puntovacunacion;
+-- DELETE FROM lotevacuna;
+-- DELETE FROM oficinaregionaleps;
+-- DELETE FROM estadovacunacion;
+-- DELETE FROM etapa;
+
+-- --En caso de querer elminar tablas
+-- DROP TABLE "CITA" CASCADE CONSTRAINTS;
+-- DROP TABLE "TALENTOHUMANO" CASCADE CONSTRAINTS;
+-- DROP TABLE "PERTENECEA" CASCADE CONSTRAINTS;
+-- DROP TABLE "CONDICION" CASCADE CONSTRAINTS;
+-- DROP TABLE "TRABAJAEN" CASCADE CONSTRAINTS;
+-- DROP TABLE "TIENECONDICIONPRESERVACION" CASCADE CONSTRAINTS;
+-- DROP TABLE "CONDICIONPRESERVACION" CASCADE CONSTRAINTS;
+-- DROP TABLE "TIENEINFRAESTRUCTURA" CASCADE CONSTRAINTS;
+-- DROP TABLE "INFRAESTRUCTURA" CASCADE CONSTRAINTS;
+-- DROP TABLE "PUNTOVACUNACIONVIRTUAL" CASCADE CONSTRAINTS;
+-- DROP TABLE "VACUNA" CASCADE CONSTRAINTS;
+-- DROP TABLE "CIUDADANO" CASCADE CONSTRAINTS;
+-- DROP TABLE "PUNTOVACUNACION" CASCADE CONSTRAINTS;
+-- DROP TABLE "LOTEVACUNA" CASCADE CONSTRAINTS;
+-- DROP TABLE "OFICINAREGIONALEPS" CASCADE CONSTRAINTS;
+-- DROP TABLE "ESTADOVACUNACION" CASCADE CONSTRAINTS;
+-- DROP TABLE "ETAPA" CASCADE CONSTRAINTS;
