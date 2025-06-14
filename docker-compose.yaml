@@ -1,0 +1,14 @@
+name: modernizacion
+services:
+  db:
+    image: gvenzl/oracle-free:23-slim-faststart
+    container_name: oracle-db
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PASSWORD=SysPassword123
+      - APP_USER=ISIS2304B05202110
+      - APP_USER_PASSWORD=MXJgcEkeOLBb
+    volumes:
+      - ./docs/ConstruccionBD.sql:/opt/oracle/my-script.sql
+    command: ./run.sh
