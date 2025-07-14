@@ -5,7 +5,7 @@ import java.util.List;
 import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 
-import uniandes.isis2304.vacuandes.negocio.Bar;
+
 import uniandes.isis2304.vacuandes.negocio.Condicion;
 import uniandes.isis2304.vacuandes.negocio.OficinaRegionalEPS;
 

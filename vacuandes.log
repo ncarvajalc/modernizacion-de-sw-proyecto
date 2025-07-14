@@ -165,3 +165,11 @@ ORA-01438: el valor 30 es mayor que la precisión especificada (1, 0) para la co
 ORA-01438: el valor 122 es mayor que la precisión especificada (1, 0) para la columna 
 
 08:46:52,063 (AWT-EventQueue-0) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando condicion: null
+20:11:58,741 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+20:11:58,741 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+20:11:58,742 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+20:11:58,742 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****

@@ -58,7 +58,6 @@ import uniandes.isis2304.vacuandes.negocio.Ciudadano;
 import uniandes.isis2304.vacuandes.negocio.OficinaRegionalEPS;
 
 import uniandes.isis2304.vacuandes.negocio.PuntoVacunacion;
-import uniandes.isis2304.vacuandes.negocio.VOBebida;
 import uniandes.isis2304.vacuandes.negocio.VOCita;
 import uniandes.isis2304.vacuandes.negocio.VOCiudadano;
 import uniandes.isis2304.vacuandes.negocio.VOCondicion;
@@ -73,7 +72,6 @@ import uniandes.isis2304.vacuandes.negocio.VOPuntoVacunacion;
 import uniandes.isis2304.vacuandes.negocio.VOPuntoVacunacionVirtual;
 import uniandes.isis2304.vacuandes.negocio.VOTalentoHumano;
 import uniandes.isis2304.vacuandes.negocio.VOTieneCondPreservacion;
-import uniandes.isis2304.vacuandes.negocio.VOTipoBebida;
 import uniandes.isis2304.vacuandes.negocio.VOVacuna;
 import uniandes.isis2304.vacuandes.negocio.Vacuandes;
 

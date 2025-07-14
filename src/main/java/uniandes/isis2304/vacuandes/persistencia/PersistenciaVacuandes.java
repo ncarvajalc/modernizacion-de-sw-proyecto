@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Properties;
 
 import javax.jdo.JDODataStoreException;
 import javax.jdo.JDOHelper;
@@ -21,8 +22,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-import uniandes.isis2304.vacuandes.negocio.Bebedor;
-import uniandes.isis2304.vacuandes.negocio.Bebida;
 import uniandes.isis2304.vacuandes.negocio.Cita;
 import uniandes.isis2304.vacuandes.negocio.Ciudadano;
 import uniandes.isis2304.vacuandes.negocio.Condicion;
@@ -125,7 +124,32 @@ public class PersistenciaVacuandes {
 	 */
 	private PersistenciaVacuandes()
 	{
-		pmf = JDOHelper.getPersistenceManagerFactory("Vacuandes");		
+		// Create JDO properties programmatically using environment variables
+		Properties props = new Properties();
+		
+		// Get database configuration from system properties (set by Spring)
+		String connectionUrl = System.getProperty("db.connection.url", "jdbc:oracle:thin:@localhost:1521/FREEPDB1");
+		String username = System.getProperty("db.connection.username", "ISIS2304B05202110");
+		String password = System.getProperty("db.connection.password", "MXJgcEkeOLBb");
+		
+		// Set JDO properties
+		props.setProperty("javax.jdo.PersistenceManagerFactoryClass", "org.datanucleus.api.jdo.JDOPersistenceManagerFactory");
+		props.setProperty("javax.jdo.option.ConnectionURL", connectionUrl);
+		props.setProperty("javax.jdo.option.ConnectionDriverName", "oracle.jdbc.driver.OracleDriver");
+		props.setProperty("javax.jdo.option.ConnectionUserName", username);
+		props.setProperty("javax.jdo.option.ConnectionPassword", password);
+		props.setProperty("javax.jdo.option.Mapping", "oracle");
+		props.setProperty("datanucleus.schema.autoCreateAll", "false");
+		props.setProperty("datanucleus.query.sql.allowAll", "true");
+		
+		// Log connection details for debugging
+		log.info("JDO Database Configuration:");
+		log.info("URL: " + connectionUrl);
+		log.info("Username: " + username);
+		log.info("Password: " + (password != null ? "*****" : "null"));
+		
+		// Create persistence manager factory with properties
+		pmf = JDOHelper.getPersistenceManagerFactory(props);
 		crearClasesSQL ();
 		
 		// Define los nombres por defecto de las tablas de la base de datos

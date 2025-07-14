@@ -1,0 +1,19 @@
+aws_region   = "us-east-1"
+project_name = "vacuandes"
+environment  = "dev"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Database Configuration
+db_name     = "vacuandes"
+db_username = "vacuandes_user"
+db_password = "your-secure-password-here"
+
+# Tags
+tags = {
+  Project     = "Vacuandes"
+  Environment = "dev"
+  ManagedBy   = "Terraform"
+  Owner       = "your-team"
+} 
