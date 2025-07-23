@@ -127,10 +127,18 @@ public class PersistenciaVacuandes {
 		// Create JDO properties programmatically using environment variables
 		Properties props = new Properties();
 		
-		// Get database configuration from system properties (set by Spring)
-		String connectionUrl = System.getProperty("db.connection.url", "jdbc:oracle:thin:@localhost:1521/FREEPDB1");
-		String username = System.getProperty("db.connection.username", "ISIS2304B05202110");
-		String password = System.getProperty("db.connection.password", "MXJgcEkeOLBb");
+		//  // Get database configuration from system properties (set by Spring)
+		//  String connectionUrl = System.getProperty("db.connection.url", "jdbc:oracle:thin:@localhost:1521/FREEPDB1");
+		//  String username = System.getProperty("db.connection.username", "ISIS2304B05202110");
+		//  String password = System.getProperty("db.connection.password", "MXJgcEkeOLBb");
+		// Get database configuration from environment variables (set by Docker)
+		String dbHost = System.getenv("DB_HOST") != null ? System.getenv("DB_HOST") : "localhost";
+		String dbPort = System.getenv("DB_PORT") != null ? System.getenv("DB_PORT") : "1521";
+		String dbSid = System.getenv("DB_SID") != null ? System.getenv("DB_SID") : "FREEPDB1";
+		String username = System.getenv("DB_USERNAME") != null ? System.getenv("DB_USERNAME") : "ISIS2304B05202110";
+		String password = System.getenv("DB_PASSWORD") != null ? System.getenv("DB_PASSWORD") : "MXJgcEkeOLBb";
+		
+		String connectionUrl = String.format("jdbc:oracle:thin:@%s:%s/%s", dbHost, dbPort, dbSid);
 		
 		// Set JDO properties
 		props.setProperty("javax.jdo.PersistenceManagerFactoryClass", "org.datanucleus.api.jdo.JDOPersistenceManagerFactory");
@@ -144,6 +152,9 @@ public class PersistenciaVacuandes {
 		
 		// Log connection details for debugging
 		log.info("JDO Database Configuration:");
+		log.info("Host: " + dbHost);
+		log.info("Port: " + dbPort);
+		log.info("SID: " + dbSid);
 		log.info("URL: " + connectionUrl);
 		log.info("Username: " + username);
 		log.info("Password: " + (password != null ? "*****" : "null"));
@@ -151,6 +162,15 @@ public class PersistenciaVacuandes {
 		// Create persistence manager factory with properties
 		pmf = JDOHelper.getPersistenceManagerFactory(props);
 		crearClasesSQL ();
+		
+		// Initialize database if needed
+		try {
+			PersistenceManager pm = pmf.getPersistenceManager();
+			SQLDatabaseInitializer.initializeDatabase(pm);
+			pm.close();
+		} catch (Exception e) {
+			log.warn("Database initialization failed, continuing anyway: " + e.getMessage());
+		}
 		
 		// Define los nombres por defecto de las tablas de la base de datos
 		tablas = new LinkedList<String> ();

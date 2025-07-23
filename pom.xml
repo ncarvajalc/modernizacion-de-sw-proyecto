@@ -36,6 +36,15 @@
             <version>${spring.boot.version}</version>
         </dependency>
 
+        <!-- Spring Boot DevTools for hot reload in development -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+
         <!-- Local JAR dependencies from lib folder -->
         <!-- Oracle JDBC Driver -->
         <dependency>

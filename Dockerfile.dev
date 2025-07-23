@@ -1,0 +1,53 @@
+# Development Dockerfile for Vacuandes Spring Boot Application
+FROM openjdk:11-jdk-slim
+
+# Install necessary packages
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Maven
+RUN wget https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz \
+    && tar xzf apache-maven-3.8.6-bin.tar.gz -C /opt \
+    && ln -s /opt/apache-maven-3.8.6 /opt/maven \
+    && rm apache-maven-3.8.6-bin.tar.gz
+
+ENV MAVEN_HOME=/opt/maven
+ENV PATH=${MAVEN_HOME}/bin:${PATH}
+
+# Set working directory
+WORKDIR /workspace
+
+# Copy lib folder with local dependencies first
+COPY ./lib ./lib
+
+# Install local dependencies to Maven local repository 
+# (This runs once when building the image)
+RUN mvn install:install-file -Dfile=lib/ojdbc8.jar -DgroupId=com.oracle.database.jdbc -DartifactId=ojdbc8 -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/datanucleus-core-5.1.10.jar -DgroupId=org.datanucleus -DartifactId=datanucleus-core -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/datanucleus-api-jdo-5.1.7.jar -DgroupId=org.datanucleus -DartifactId=datanucleus-api-jdo -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/datanucleus-rdbms-5.1.10.jar -DgroupId=org.datanucleus -DartifactId=datanucleus-rdbms -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/javax.jdo-3.2.0-m8.jar -DgroupId=javax.jdo -DartifactId=jdo-api -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/transaction-api-1.1.jar -DgroupId=javax.transaction -DartifactId=jta -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/gson-2.8.5.jar -DgroupId=com.google.code.gson -DartifactId=gson -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/log4j-1.2.17.jar -DgroupId=log4j -DartifactId=log4j -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/junit-4.12.jar -DgroupId=junit -DartifactId=junit -Dversion=local -Dpackaging=jar -DgeneratePom=true
+RUN mvn install:install-file -Dfile=lib/hamcrest-core-1.3.jar -DgroupId=org.hamcrest -DartifactId=hamcrest-core -Dversion=local -Dpackaging=jar -DgeneratePom=true
+
+# Copy Maven wrapper and pom.xml
+COPY ./mvnw* ./
+COPY ./pom.xml ./
+COPY ./.mvn ./.mvn
+
+# Make Maven wrapper executable
+RUN chmod +x mvnw
+
+# Expose application port
+EXPOSE 5000
+
+# Copy the rest of the application (this happens at runtime due to volume mount)
+COPY . .
+
+# Default command
+CMD ["./mvnw", "spring-boot:run", "-Dspring-boot.run.profiles=development"] 

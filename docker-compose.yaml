@@ -1,4 +1,5 @@
 name: modernizacion
+
 services:
   db:
     image: gvenzl/oracle-free:23-slim-faststart
@@ -12,3 +13,47 @@ services:
     volumes:
       - ./docs/ConstruccionBD.sql:/opt/oracle/my-script.sql
     command: ./run.sh
+    networks:
+      - vacuandes-network
+    healthcheck:
+      test: ["CMD", "sqlplus", "-S", "ISIS2304B05202110/MXJgcEkeOLBb@//localhost:1521/FREEPDB1", "<<<", "SELECT 1 FROM DUAL;"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  spring-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: vacuandes-api
+    ports:
+      - "8000:5000"
+    environment:
+      - SPRING_PROFILES_ACTIVE=development
+      - DB_HOST=db
+      - DB_PORT=1521
+      - DB_SID=FREEPDB1
+      - DB_USERNAME=ISIS2304B05202110
+      - DB_PASSWORD=MXJgcEkeOLBb
+    volumes:
+      - .:/workspace
+      - ~/.m2:/root/.m2  # Maven cache
+      - /workspace/target  # Exclude target directory from sync
+    working_dir: /workspace
+    command: ["./mvnw", "spring-boot:run", "-Dspring-boot.run.profiles=development"]
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - vacuandes-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+networks:
+  vacuandes-network:
+    driver: bridge

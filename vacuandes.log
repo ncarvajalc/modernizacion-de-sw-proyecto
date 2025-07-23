@@ -173,3 +173,561 @@ ORA-01438: el valor 122 es mayor que la precisión especificada (1, 0) para la c
 20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
 20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
 20:14:54,346 (main) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:47:50,683 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:47:50,684 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:50:23,445 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:54:04,263 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:54:04,264 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:54:12,419 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:55:13,863 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:55:13,864 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:58:33,974 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:59:29,333 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:59:39,120 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:59:46,826 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:59:46,827 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+12:59:51,531 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+12:59:51,532 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:00:13,854 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:00:13,854 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:00:13,854 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:00:13,854 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:00:13,855 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:00:13,855 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:00:13,855 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:00:18,177 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:00:18,178 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:00:24,885 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:00:24,886 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:02:03,765 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:02:54,202 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:03:08,091 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:03:08,091 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:03:08,092 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:03:08,092 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:03:08,092 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:03:08,092 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:03:08,092 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:03:43,229 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:03:58,175 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:03:58,175 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:03:58,175 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:03:58,175 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:03:58,175 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:03:58,176 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:03:58,176 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:04:04,578 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:05:15,104 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:05:15,105 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:05:24,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:05:24,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:05:31,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:05:31,831 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:05:31,831 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:05:31,831 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:05:31,832 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:05:31,832 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:05:31,832 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:05:38,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:05:53,209 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:06:07,171 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:06:07,173 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:06:13,365 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:06:17,872 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:07:35,765 (http-nio-5000-exec-9) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:07:35,859 (http-nio-5000-exec-9) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:07:35,861 (http-nio-5000-exec-9) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:07:41,158 (http-nio-5000-exec-10) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:07:41,167 (http-nio-5000-exec-10) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:07:41,170 (http-nio-5000-exec-10) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:08:40,674 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:08:50,570 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:08:50,634 (http-nio-5000-exec-3) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:08:50,635 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:11:20,669 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:11:32,662 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:11:32,662 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:11:32,663 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:11:32,663 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:11:32,663 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:11:32,663 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:11:32,663 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:11:48,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:11:51,200 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:11:56,955 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:11:56,956 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:12:06,789 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:12:21,015 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:12:21,101 (http-nio-5000-exec-3) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:12:21,110 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:12:44,993 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:12:51,514 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:12:51,514 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:12:51,514 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:12:51,514 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:12:51,515 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:12:51,515 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:12:51,515 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:13:10,529 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:13:10,529 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:13:10,529 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:13:10,529 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:13:10,529 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:13:10,530 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:13:10,530 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:13:22,566 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:13:22,647 (http-nio-5000-exec-3) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:13:22,649 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:17:33,467 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:17:33,468 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:17:35,282 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:17:35,282 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:17:35,282 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:17:35,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:17:35,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:17:35,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:17:35,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:17:44,058 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:17:44,058 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:17:44,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:17:44,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:17:44,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:17:44,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:17:44,059 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:18:14,512 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:18:21,221 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:18:21,221 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:18:21,221 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:18:21,221 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:18:21,222 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:18:21,222 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:18:21,222 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:19:19,592 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:19:21,237 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:19:21,237 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:19:21,237 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:19:21,238 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:19:21,238 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:19:21,238 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:19:21,238 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:19:34,025 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:19:36,752 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:19:36,753 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:19:52,658 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:19:52,659 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:20:04,508 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:20:04,509 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:20:04,510 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:20:04,510 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:20:04,510 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:20:04,510 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:20:04,511 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:20:06,283 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:20:26,181 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:20:31,898 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:20:31,898 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:20:31,898 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:20:31,898 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:20:31,898 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:20:31,899 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:20:31,899 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:20:41,640 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:20:41,641 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:21:07,623 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:21:07,624 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:21:17,428 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:21:17,429 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:22:17,668 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:23:07,398 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:23:07,501 (http-nio-5000-exec-5) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-00942: table or view "ISIS2304B05202110"."CIUDADANO" does not exist
+
+13:23:07,510 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:25:05,614 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:05,615 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:07,581 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:17,337 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:25:45,313 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:45,313 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:45,313 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:45,314 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:45,314 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:45,314 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:45,314 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:25:47,159 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:47,161 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:25:50,857 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:26:16,830 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:26:18,533 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:26:18,534 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:26:18,535 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:26:18,535 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:26:18,535 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:26:18,535 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:26:18,535 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:26:21,187 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:01,407 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:01,408 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:03,101 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:04,748 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:13,500 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:13,500 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:13,501 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:13,501 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:13,501 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:13,501 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:13,501 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:23,242 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:27:27,934 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:28:02,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:28:02,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:28:02,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:28:02,060 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:28:02,061 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:28:02,061 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:28:02,061 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - JDO Database Configuration:
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Host: db
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Port: 1521
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - SID: FREEPDB1
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - URL: jdbc:oracle:thin:@db:1521/FREEPDB1
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Username: ISIS2304B05202110
+13:28:33,528 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Password: *****
+13:28:33,829 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Starting database initialization check...
+13:28:33,835 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Tables not found. Creating schema and seeding data...
+13:28:33,836 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Creating database schema...
+13:28:33,976 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Adding constraints...
+13:28:34,075 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Seeding data...
+13:28:34,918 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Database initialization completed successfully
+13:28:34,918 (restartedMain) INFO  [uniandes.isis2304.vacuandes.persistencia.SQLDatabaseInitializer] - Database initialization completed successfully
+13:29:04,126 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:29:04,154 (http-nio-5000-exec-3) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-12899: value too large for column "ISIS2304B05202110"."CIUDADANO"."ESVACUNABLE" (actual: 3, maximum: 1)
+
+13:29:04,156 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:29:50,740 (http-nio-5000-exec-8) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:29:50,840 (http-nio-5000-exec-8) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-02291: integrity constraint (ISIS2304B05202110.OFEPS_FK_CIUDADANO) violated - parent key not found
+
+13:29:50,840 (http-nio-5000-exec-8) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:30:27,116 (http-nio-5000-exec-10) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:30:27,137 (http-nio-5000-exec-10) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-02291: integrity constraint (ISIS2304B05202110.OFEPS_FK_CIUDADANO) violated - parent key not found
+
+13:30:27,141 (http-nio-5000-exec-10) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+13:31:55,889 (http-nio-5000-exec-7) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
+13:31:55,967 (http-nio-5000-exec-7) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=CC1234567890, Nombre=Juan Pérez]
