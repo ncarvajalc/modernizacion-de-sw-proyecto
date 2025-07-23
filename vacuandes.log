@@ -731,3 +731,19 @@ ORA-02291: integrity constraint (ISIS2304B05202110.OFEPS_FK_CIUDADANO) violated 
 13:30:27,141 (http-nio-5000-exec-10) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
 13:31:55,889 (http-nio-5000-exec-7) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234567890
 13:31:55,967 (http-nio-5000-exec-7) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=CC1234567890, Nombre=Juan Pérez]
+08:38:34,765 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:38:34,766 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+08:38:34,792 (main) INFO  [uniandes.isis2304.vacuandes.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:41:28,897 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 12345
+13:41:28,946 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=CC12345, Nombre=Juan Perez]
+13:49:06,345 (http-nio-5000-exec-6) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1232546545
+13:49:06,378 (http-nio-5000-exec-6) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=CC1232546545, Nombre=Mariana Ruiz]
+14:02:59,753 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234
+14:02:59,855 (http-nio-5000-exec-3) ERROR [uniandes.isis2304.vacuandes.persistencia.PersistenciaVacuandes] - Exception : Error executing SQL query "INSERT INTO CIUDADANO(TipoDeIdentificacion, IdentificacionCiudadano, NombreCiudadano, ApellidoCiudadano, EsVacunable, FechaDeNacimiento, TelefonoDeContacto, EstadoVacunacion, Etapa, NombreOficina, RegionOficina, genero,  rol,  ciudad,  localidad) values (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)".
+ORA-02290: check constraint (ISIS2304B05202110.CK_TIPOSID) violated
+
+14:02:59,860 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: null
+14:03:24,814 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 1234
+14:03:24,889 (http-nio-5000-exec-5) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=CC1234, Nombre=John jeiwoow]
+14:18:14,791 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadano 12345678
+14:18:14,854 (http-nio-5000-exec-3) INFO  [uniandes.isis2304.vacuandes.negocio.Vacuandes] - Adicionando ciudadno: Ciudadano [id=PermisoEspecial12345678, Nombre=Juan Cordoba]
