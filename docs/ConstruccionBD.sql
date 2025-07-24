@@ -162,10 +162,9 @@ CREATE TABLE Etapa
 --Crea Condicion y define PK
 CREATE TABLE Condicion
 (
-  IdentificadorCondicion NUMBER(1) NOT NULL,
+  IdentificadorCondicion NOT NULL,
   DescripcionCondicion VARCHAR2(255) NOT NULL,
-  CONSTRAINT Condicion_PK PRIMARY KEY (IdentificadorCondicion,DescripcionCondicion),
-  CONSTRAINT CK_Condicion CHECK (IdentificadorCondicion >= 0 AND IdentificadorCondicion <= 5)
+  CONSTRAINT Condicion_PK PRIMARY KEY (IdentificadorCondicion,DescripcionCondicion)
 );
 
 --Crea TieneInfraestrucutra

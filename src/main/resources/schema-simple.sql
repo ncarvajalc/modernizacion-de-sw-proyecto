@@ -59,10 +59,9 @@ CREATE TABLE Etapa (
 
 -- Create Condicion table
 CREATE TABLE Condicion (
-  IdentificadorCondicion NUMBER(1) NOT NULL,
+  IdentificadorCondicion NUMBER NOT NULL,
   DescripcionCondicion VARCHAR2(255) NOT NULL,
-  CONSTRAINT Condicion_PK PRIMARY KEY (IdentificadorCondicion,DescripcionCondicion),
-  CONSTRAINT CK_Condicion CHECK (IdentificadorCondicion >= 0 AND IdentificadorCondicion <= 5)
+  CONSTRAINT Condicion_PK PRIMARY KEY (IdentificadorCondicion,DescripcionCondicion)
 );
 
 -- Create PuntoVacunacion table

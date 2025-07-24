@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Users, Calendar, Shield, TrendingUp } from "lucide-react";
+import { Users, Calendar, Shield, TrendingUp, FileText } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       </div>
 
       {/* Quick Actions */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
           <div className="flex items-center space-x-4 mb-4">
             <div className="p-2 rounded-md bg-blue-100 text-blue-600">
@@ -48,6 +48,23 @@ export default function Home() {
           <p className="text-sm text-muted-foreground">
             Usa la barra de búsqueda en la parte superior para buscar citas por ID de ciudadano.
           </p>
+        </div>
+
+        <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+          <div className="flex items-center space-x-4 mb-4">
+            <div className="p-2 rounded-md bg-purple-100 text-purple-600">
+              <FileText className="h-6 w-6" />
+            </div>
+            <h3 className="text-xl font-semibold">Gestión de Condiciones</h3>
+          </div>
+          <p className="text-muted-foreground mb-4">
+            Crea y administra condiciones médicas que pueden afectar el proceso de vacunación.
+          </p>
+          <Button asChild>
+            <Link href="/condiciones">
+              Gestionar Condiciones
+            </Link>
+          </Button>
         </div>
       </div>
 
