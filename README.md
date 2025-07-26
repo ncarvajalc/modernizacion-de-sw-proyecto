@@ -108,7 +108,7 @@ The system is currently a Java Swing application that is being modernized to inc
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/your-username/modernizacion-de-sw-proyecto.git
+git clone https://github.com/ncarvajalc/modernizacion-de-sw-proyecto.git
 cd modernizacion-de-sw-proyecto
 ```
 
