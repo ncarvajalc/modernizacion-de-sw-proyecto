@@ -95,6 +95,102 @@ The system is currently a Java Swing application that is being modernized to inc
    ./run.sh
    ```
 
+## Deploy
+
+### Requisitos Previos
+- Java JDK 11 o superior
+- Maven 3.6+
+- PostgreSQL 13+
+- Git
+- IDE (recomendado: Visual Studio Code)
+
+### 1. Preparación del Ambiente
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/your-username/modernizacion-de-sw-proyecto.git
+cd modernizacion-de-sw-proyecto
+```
+
+### 2. Configuración de Base de Datos
+
+```sql
+-- Iniciar PostgreSQL (Windows)
+net start postgresql
+
+-- Crear y configurar base de datos
+psql -U postgres
+CREATE DATABASE vacuandes;
+\c vacuandes
+\i docs/ConstruccionBD.sql
+\q
+```
+
+### 3. Configuración del Proyecto
+
+```properties
+# filepath: src/main/resources/config/persistence.properties
+javax.jdo.PersistenceManagerFactoryClass=org.datanucleus.api.jdo.JDOPersistenceManagerFactory
+javax.jdo.option.ConnectionURL=jdbc:postgresql://localhost:5432/vacuandes
+javax.jdo.option.ConnectionUserName=your_username
+javax.jdo.option.ConnectionPassword=your_password
+javax.jdo.option.ConnectionDriverName=org.postgresql.Driver
+datanucleus.schema.autoCreateAll=true
+```
+
+### 4. Compilación y Ejecución
+
+```bash
+# Limpiar e instalar dependencias
+mvn clean install
+
+# Ejecutar la aplicación
+mvn exec:java -Dexec.mainClass="uniandes.isis2304.parranderos.interfazDemo.InterfazVacuandesApp"
+```
+
+### 5. Verificación
+
+1. **Base de Datos**
+```bash
+# Verificar conexión
+psql -U postgres -d vacuandes -c "SELECT count(*) FROM ciudadanos;"
+```
+
+2. **Aplicación**
+- La interfaz gráfica debería abrirse automáticamente
+- Verificar la conexión usando el botón "Verificar Conexión" en la interfaz
+
+### 6. Solución de Problemas Comunes
+
+#### Error de Conexión a Base de Datos
+```bash
+# Verificar servicio PostgreSQL
+net start postgresql
+
+# Verificar puerto 5432
+netstat -ano | findstr :5432
+```
+
+#### Error de Compilación
+```bash
+# Limpiar caché de Maven
+mvn clean
+mvn dependency:purge-local-repository
+mvn clean install
+```
+
+#### Error de JDO
+```bash
+# Regenerar esquema
+mvn datanucleus:schema-create
+```
+
+### 7. Logs y Monitoreo
+
+- Logs de la aplicación: `vacuandes.log`
+- Logs de JDO: `datanucleus.log`
+- Logs de base de datos: `%PROGRAMDATA%\PostgreSQL\13\data\log`
+
 ### Cloud Deployment
 
 1. **Configure Terraform variables**:
