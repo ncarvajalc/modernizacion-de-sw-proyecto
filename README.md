@@ -1,23 +1,23 @@
 # Vacuandes - Vaccination Management System
 
-A comprehensive vaccination management system built with Java and deployed on AWS infrastructure.
-
 ## Overview
 
-Vacuandes is a vaccination management system designed to handle:
+Vacuandes is a comprehensive vaccination management system built with Java and designed for containerized deployment. The system manages citizen registration, vaccination appointments, vaccination points, vaccine inventory, and provides reporting and analytics. The backend uses an **Oracle** database, and all deployment is handled via **Docker Compose** for ease of setup and consistency across environments.
+
+## Features
 
 - Citizen registration and management
-- Vaccination appointments (citas)
-- Vaccination points management
+- Vaccination appointment scheduling
+- Vaccination point management
 - Vaccine inventory tracking
 - Reporting and analytics
+- REST API endpoints for frontend integration
 
-The system is currently a Java Swing application that is being modernized to include:
+## Architecture
 
-- REST API endpoints for web services
-- Cloud-native deployment on AWS
-- Infrastructure as Code with Terraform
-- Containerized deployment with Docker
+- **Backend:** Java
+- **Database:** Oracle (managed via Docker Compose)
+- **Deployment:** Docker Compose (includes both application and Oracle database containers)
 
 ## Project Structure
 
@@ -72,8 +72,8 @@ The system is currently a Java Swing application that is being modernized to inc
 - Java 11 or higher
 - Maven 3.6+
 - Docker
-- AWS CLI configured
-- Terraform >= 1.0
+- Docker Compose
+- Git
 
 ### Local Development
 
@@ -97,122 +97,35 @@ The system is currently a Java Swing application that is being modernized to inc
 
 ## Deploy
 
-### Requisitos Previos
-- Java JDK 11 o superior
-- Maven 3.6+
-- PostgreSQL 13+
-- Git
-- IDE (recomendado: Visual Studio Code)
+### Prerequisites
 
-### 1. Preparación del Ambiente
+- [Docker](https://www.docker.com/products/docker-desktop) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/ncarvajalc/modernizacion-de-sw-proyecto.git
-cd modernizacion-de-sw-proyecto
-```
+### Steps
 
-### 2. Configuración de Base de Datos
-
-```sql
--- Iniciar PostgreSQL (Windows)
-net start postgresql
-
--- Crear y configurar base de datos
-psql -U postgres
-CREATE DATABASE vacuandes;
-\c vacuandes
-\i docs/ConstruccionBD.sql
-\q
-```
-
-### 3. Configuración del Proyecto
-
-```properties
-# filepath: src/main/resources/config/persistence.properties
-javax.jdo.PersistenceManagerFactoryClass=org.datanucleus.api.jdo.JDOPersistenceManagerFactory
-javax.jdo.option.ConnectionURL=jdbc:postgresql://localhost:5432/vacuandes
-javax.jdo.option.ConnectionUserName=your_username
-javax.jdo.option.ConnectionPassword=your_password
-javax.jdo.option.ConnectionDriverName=org.postgresql.Driver
-datanucleus.schema.autoCreateAll=true
-```
-
-### 4. Compilación y Ejecución
-
-```bash
-# Limpiar e instalar dependencias
-mvn clean install
-
-# Ejecutar la aplicación
-mvn exec:java -Dexec.mainClass="uniandes.isis2304.parranderos.interfazDemo.InterfazVacuandesApp"
-```
-
-### 5. Verificación
-
-1. **Base de Datos**
-```bash
-# Verificar conexión
-psql -U postgres -d vacuandes -c "SELECT count(*) FROM ciudadanos;"
-```
-
-2. **Aplicación**
-- La interfaz gráfica debería abrirse automáticamente
-- Verificar la conexión usando el botón "Verificar Conexión" en la interfaz
-
-### 6. Solución de Problemas Comunes
-
-#### Error de Conexión a Base de Datos
-```bash
-# Verificar servicio PostgreSQL
-net start postgresql
-
-# Verificar puerto 5432
-netstat -ano | findstr :5432
-```
-
-#### Error de Compilación
-```bash
-# Limpiar caché de Maven
-mvn clean
-mvn dependency:purge-local-repository
-mvn clean install
-```
-
-#### Error de JDO
-```bash
-# Regenerar esquema
-mvn datanucleus:schema-create
-```
-
-### 7. Logs y Monitoreo
-
-- Logs de la aplicación: `vacuandes.log`
-- Logs de JDO: `datanucleus.log`
-- Logs de base de datos: `%PROGRAMDATA%\PostgreSQL\13\data\log`
-
-### Cloud Deployment
-
-1. **Configure Terraform variables**:
-
+1. **Clone the repository:**
    ```bash
-   cd terraform
-   cp terraform.tfvars.example terraform.tfvars
-   # Edit terraform.tfvars with your values
+   git clone https://github.com/your-username/modernizacion-de-sw-proyecto.git
+   cd modernizacion-de-sw-proyecto
    ```
 
-2. **Deploy everything**:
-
+2. **Build the Docker images:**
    ```bash
-   ./deploy.sh
+   docker-compose build
    ```
 
-   Or deploy components individually:
-
+3. **Start the containers:**
    ```bash
-   ./deploy.sh infrastructure  # Deploy infrastructure only
-   ./deploy.sh build          # Build application only
-   ./deploy.sh deploy         # Deploy to existing infrastructure
+   docker-compose up -d
+   ```
+
+4. **Verify the deployment:**
+   - Access the application at `http://localhost:8080`.
+   - Ensure the Oracle database container is running and accessible.
+
+5. **Stop the containers:**
+   ```bash
+   docker-compose down
    ```
 
 ## API Endpoints
