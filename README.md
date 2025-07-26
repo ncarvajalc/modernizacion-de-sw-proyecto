@@ -105,7 +105,7 @@ Vacuandes is a comprehensive vaccination management system built with Java and d
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/modernizacion-de-sw-proyecto.git
+   git clone https://github.com/ncarvajalc/modernizacion-de-sw-proyecto.git
    cd modernizacion-de-sw-proyecto
    ```
 
